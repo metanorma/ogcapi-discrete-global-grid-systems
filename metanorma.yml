@@ -2,6 +2,7 @@
 metanorma:
   source:
     files:
+      - core/21-038r1.adoc
       - metanorma/ogcapi-discrete-global-grid-systems/document.adoc
 
   collection:

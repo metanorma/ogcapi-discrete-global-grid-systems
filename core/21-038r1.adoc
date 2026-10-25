@@ -1,32 +1,17 @@
-= OGC API - Discrete Global Grid Systems - Part 1: Core
+= OGC API - Discrete Global Grid Systems
 :doctype: standard
-:encoding: utf-8
-:lang: en
-:status: approved
-:committee: technical
-:draft: 1.0
-:m.n: 1.0
-:external-id: https://www.opengis.net/doc/is/ogcapi-dggs-1/1.0
-:docnumber: 21-038r1
-:received-date: 2025-02-14
-:issued-date: 2025-05-04
-:published-date: 2025-10-03
-:fullname: Dr. Matthew Brian John Purss
-:fullname_2: Jérôme Jacovella-St-Louis
 :docsubtype: implementation
-:keywords: ogcdoc, OGC document, API, openapi, html, ogcapi, DGGS, discrete global grid, ISEA, hexagonal grids
-:submitting-organizations: Pangaea Innovations Pty. Ltd.; Ecere Corporation; Landcare Research New Zealand; Peking University Collaborative Innovation Center for Geospatial Big Data; European Commission Joint Research Centre; Natural Resources Canada; University of Tartu; European Space Agency; Open Geospatial Foundation; University of Calgary; GeoInsight AG
-:docfile: document.adoc
-:mn-document-class: ogc
-:mn-output-extensions: xml,html,pdf
-:local-cache-only:
-:data-uri-image:
-:pdf-uri: ./21-038r1.pdf
 :edition: 1.0
+:language: en
+:status: draft
+:committee: technical
+:docnumber: 21-038r1
+:received-date: 2026-10-25
+:issued-date: 2026-10-25
+:fullname: Open Geospatial Consortium
+:organization: Open Geospatial Consortium
+:mn-document-class: ogc
 
-////
-Make sure to complete each included document
-////
 include::sections/clause_0_front_material.adoc[]
 
 include::sections/clause_1_scope.adoc[]
