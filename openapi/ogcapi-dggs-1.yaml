@@ -68,12 +68,17 @@ components:
         links.
     collectionDesc:
       $ref: schemas/common-geodata/collectionDesc.yaml
+      description: A description of a collection hosting DGGS data.
     grid:
       $ref: schemas/common-geodata/grid.yaml
+      description: 'A grid refinement of a DGGRS: the set of zones at a given refinement level intersecting
+        the query area.'
     regularGrid:
       $ref: schemas/common-geodata/regularGrid.yaml
+      description: A regular DGGS grid whose zones are uniform in shape and area at a given level.
     irregularGrid:
       $ref: schemas/common-geodata/irregularGrid.yaml
+      description: An irregular DGGS grid whose zones vary in shape or area at a given level.
     extent:
       $ref: schemas/common-geodata/extent.yaml
       description: The spatial and temporal extent of a collection or deployment.
@@ -91,21 +96,31 @@ components:
       description: The number of items matching the selection criteria, if the server can determine it.
     role:
       $ref: schemas/records-core/roles.yaml
+      description: The role performed by a contact in relation to the DGGS dataset.
     dggrs:
       $ref: schemas/dggs-core/dggrs.yaml
+      description: 'A Discrete Global Grid Reference System: the hierarchical grid used to organize and
+        query the data.'
     dggrs-item:
       $ref: schemas/dggs-core/dggrs-item.yaml
+      description: 'A subset of a DGGRS definition: identifier and URI.'
     zone-info:
       $ref: schemas/dggs-core/zone-info.yaml
+      description: 'Information about a DGGS zone: its identifier, geometry, refinement level and data
+        values.'
     crs:
       $ref: schemas/dggs-core/crs.yaml
       description: The coordinate reference systems supported for spatial inputs and outputs.
     dggrs-definition:
       $ref: ../core/schemas/dggrs-definition/dggrs-definition-proposed.yaml
+      description: 'The full definition of a DGGRS: its geometry, level counts, cell shapes and parent-child
+        relations.'
     dggs-json:
       $ref: ../core/schemas/dggs-json/dggs-json.yaml
+      description: 'A DGGS data container: zones with their values serialized in the DGGS-JSON encoding.'
     FeatureCollection:
       $ref: schemas/geojson/FeatureCollection.yaml
+      description: 'A collection of DGGS features: zones with their data, serialized as GeoJSON.'
     enumeration:
       $ref: schemas/dynamic/enumeration.yaml
       description: An input whose value must be one of an enumerated set of literals.
@@ -114,6 +129,7 @@ components:
       description: A list of all collections available on this API, across all collection types.
     all-dggrs:
       $ref: schemas/dynamic/all-dggrs.yaml
+      description: A list of all Discrete Global Grid Reference Systems (DGGRS) supported by this API.
   parameters:
     f-metadata:
       $ref: parameters/unspecified/f-metadata.yaml
