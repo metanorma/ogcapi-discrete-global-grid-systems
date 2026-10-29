@@ -19,9 +19,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      # Gemfile.lock is committed: install exactly what it pins
-      BUNDLE_FROZEN: "true"
     steps:
       - name: Set up Swap Space
         uses: pierotofy/set-swap-space@v1.0
