@@ -11,3 +11,4 @@ core/metanorma.asciidoc.log.txt
 core/iev/
 core/relaton/
 .DS_Store
+Gemfile.lock
