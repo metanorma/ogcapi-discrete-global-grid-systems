@@ -35,10 +35,8 @@ gem "ea", "= 0.6.89"
 gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
 
 # relaton / pubid line
-gem "relaton", "= 3.0.1"
-gem "relaton-cli", github: "relaton/relaton", tag: "v3.0.1", glob: "gems/relaton-cli/relaton-cli.gemspec"
-gem "relaton-render", "= 3.0.0"
-gem "pubid", "~> 2.0.0"
+gem "relaton-cli", "~> 3.0"
+gem "pubid", "~> 2.0"
 
 # tooling
 gem "debug"
