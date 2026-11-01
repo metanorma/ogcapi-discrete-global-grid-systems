@@ -29,7 +29,10 @@ gem "metanorma-plugin-openapi", github: "metanorma/metanorma-plugin-openapi", br
 gem "lutaml-openapi", github: "lutaml/lutaml-openapi", branch: "main"
 
 # lutaml family
-# moxml main is past 0.6 while metanorma-standoc caps moxml at ~> 0.5.84\n# (git-main resolution fails) - pin the last 0.5 line until standoc loosens\ngem "moxml", "0.5.178"
+# moxml main is past 0.6 while metanorma-standoc caps moxml at ~> 0.5.84
+# (git-main resolution fails) - pin the last 0.5 line until standoc loosens
+gem "moxml", "0.5.178"
+
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "ea", "= 0.6.89"
 gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
